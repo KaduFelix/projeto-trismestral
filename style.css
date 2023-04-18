@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #F4A460;
+	padding: 10px;
+}
+
+.titulo-principal {
+	text-align: center;
+	background:;
+
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 1;
+}
+
+p {
+	text-align: center;
+
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #00008B;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 20%;
+}
+
+.fotoviagem {
+	width: 39%;
+}
+.imagemtitulo {
+	width: 80%;
+}
+
+.principal2{
+	background: #836FFF;
+	padding: 10px;
+}
+.fotohardskill {
+	width: 39%;
+}
+.certificado{
+	width: 56%;
+}
+.principal3{
+	background: #9400D3;
+	padding: 10px;
+}
+.formacao{
+	width: 56%;
+}
+.encerramento{
+	width:100%;
+	position: center;
+}
