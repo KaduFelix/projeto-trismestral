@@ -19,6 +19,26 @@ body {
         background-position: 0% 50%;
     }
 }
+@media (max-width: 768px) {
+  .titulo-centralizado {
+    font-size: 24px;
+  }
+
+  .itens {
+    font-size: 14px;
+  }
+
+  .principal img,
+  .principal2 img,
+  .principal3 img,
+  .encerramento {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 #banner {
 	width:100%;
