@@ -1,119 +1,59 @@
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
- 
-    50% {
-        background-position: 100% 50%;
-    }
- 
-    100% {
-        background-position: 0% 50%;
-    }
-}
-@media (max-width: 768px) {
-  .titulo-centralizado {
-    font-size: 24px;
-  }
-
-  .itens {
-    font-size: 14px;
-  }
-
-  .principal img,
-  .principal2 img,
-  .principal3 img,
-  .encerramento {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-  }
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd700;
+  color: #333;
 }
 
-#banner {
-	width:100%;
-}
-
-.principal{
-	background: #F4A460;
-	padding: 10px;
-}
-
-.titulo-principal {
-	text-align: center;
-	background:;
-
-}
-
-.titulo-centralizado {
-	text-align: center;
-	font-size: 1;
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 p {
-	text-align: center;
-
+  font-size: 18px;
 }
 
-#missao {
-	font-size: 20px
+section {
+  margin: 40px;
 }
 
-em strong {
-	color: #00008B;
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.itens {
-	font-style: italic
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 20%;
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.fotoviagem {
-	width: 39%;
-}
-.imagemtitulo {
-	width: 80%;
+.social-links a {
+  margin: 0 10px;
 }
 
-.principal2{
-	background: #836FFF;
-	padding: 10px;
-}
-.fotohardskill {
-	width: 39%;
-}
-.certificado{
-	width: 56%;
-}
-.principal3{
-	background: #9400D3;
-	padding: 10px;
-}
-.formacao{
-	width: 56%;
-}
-.encerramento{
-	width:100%;
-	position: center;
+.social-links img {
+  width: 40px;
+  height: 40px;
 }
